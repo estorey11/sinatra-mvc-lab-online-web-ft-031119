@@ -1,7 +1,8 @@
 class PigLatinizer
   def piglatinize(phrase)
     words=phrase.split(" ")
-    
+    words.collect {|word| piglatinize_word(word)}
+    words.join
   end
   
   def piglatinize_word(word)
