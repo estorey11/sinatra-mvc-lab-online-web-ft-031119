@@ -6,7 +6,7 @@ class PigLatinizer
   
   def first_vowel_location(letters)
     letters.find_index do |letter|
-      !letter.consonant?
+      !consonant?(letter)
     end
   end
   
