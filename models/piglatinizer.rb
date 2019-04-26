@@ -1,5 +1,5 @@
 class PigLatinizer
-  def piglatinize(word)
+  def piglatinize_word(word)
     letters=word.split('')
     first_vowel_location=first_vowel_location(letters)
     last_cons=first_vowel_location-1
