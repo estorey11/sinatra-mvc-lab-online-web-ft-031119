@@ -7,8 +7,8 @@ class PigLatinizer
     end
   end
   
-  def first_vowel(letters)
-    letters.first
+  def first_vowel_location(letters)
+    letters.find_index
   end
   
   def consonant?(letter)
