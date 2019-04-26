@@ -8,8 +8,11 @@ class PigLatinizer
       letters << "w"
     else 
       chunk=letters.slice!(0..last_cons)
-      letters+
+      letters+=chunk
     end
+    
+    letters << "ay"
+    
   end
   
   def first_vowel_location(letters)
