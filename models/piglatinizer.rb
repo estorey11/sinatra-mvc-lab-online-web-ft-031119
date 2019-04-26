@@ -1,4 +1,4 @@
-class Pigatinizer
+class PigLatinizer
   def pig_sentence(sentence)
     
   end
