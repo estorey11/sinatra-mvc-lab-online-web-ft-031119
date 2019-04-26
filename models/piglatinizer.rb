@@ -12,7 +12,7 @@ class PigLatinizer
     end
     
     letters << "ay"
-    
+    letters.join
   end
   
   def first_vowel_location(letters)
