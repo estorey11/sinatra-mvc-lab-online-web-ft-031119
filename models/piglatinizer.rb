@@ -1,7 +1,10 @@
 class PigLatinizer
   def piglatinize(word)
     letters=word.split('')
-    letters
+    chunk=[]
+    letters.each do |letter|
+      
+    end
   end
   
   def consonant?(letter)
