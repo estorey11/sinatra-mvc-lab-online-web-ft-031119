@@ -6,7 +6,7 @@ class PigLatinizer
     if first_vowel_location==0 
       letters << "w"
     else 
-      
+      chunk=letters.slice!(0)
     end
   end
   
