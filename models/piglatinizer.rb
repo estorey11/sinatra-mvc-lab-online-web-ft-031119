@@ -1,6 +1,6 @@
 class PigLatinizer
   def piglatinize(word)
-    word.parse!('')
+    word.parse('')
     word
   end
   
