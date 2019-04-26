@@ -1,14 +1,13 @@
 class PigLatinizer
   def piglatinize(word)
     letters=word.split('')
-    chunk=[]
-    letters.each_with_index do |letter|
-      
-    end
+    first_vowel_location=first_vowel_location(letters)
   end
   
   def first_vowel_location(letters)
-    letters.find_index
+    letters.find_index do |letter|
+      !letter.consonant
+    end
   end
   
   def consonant?(letter)
